@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148C8A6D38669182E7D80317 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B2C1CEE353D1A751F5EE3 /* libPods.a */; };
 		1B4572241D43C5DC0059D265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4572231D43C5DC0059D265 /* main.m */; };
 		1B4572271D43C5DC0059D265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4572261D43C5DC0059D265 /* AppDelegate.m */; };
 		1B45722A1D43C5DC0059D265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4572291D43C5DC0059D265 /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		1B45722F1D43C5DC0059D265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B45722E1D43C5DC0059D265 /* Images.xcassets */; };
 		1B4572321D43C5DC0059D265 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4572301D43C5DC0059D265 /* LaunchScreen.xib */; };
 		1B45723E1D43C5DC0059D265 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B45723D1D43C5DC0059D265 /* UITableViewDemoTests.m */; };
+		1B45724A1D43C88D0059D265 /* FDDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4572491D43C88D0059D265 /* FDDataModel.m */; };
+		1B45724D1D43C8A30059D265 /* FDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B45724C1D43C8A30059D265 /* FDTableViewCell.m */; };
+		1B8755841D44569200FF7907 /* NSString+FDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8755831D44569200FF7907 /* NSString+FDExtension.m */; };
+		1BD220971D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD220961D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,18 @@
 		1B4572371D43C5DC0059D265 /* UITableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B45723C1D43C5DC0059D265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B45723D1D43C5DC0059D265 /* UITableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoTests.m; sourceTree = "<group>"; };
+		1B4572471D43C7180059D265 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1B4572481D43C88D0059D265 /* FDDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDataModel.h; sourceTree = "<group>"; };
+		1B4572491D43C88D0059D265 /* FDDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDataModel.m; sourceTree = "<group>"; };
+		1B45724B1D43C8A30059D265 /* FDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTableViewCell.h; sourceTree = "<group>"; };
+		1B45724C1D43C8A30059D265 /* FDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTableViewCell.m; sourceTree = "<group>"; };
+		1B8755821D44569200FF7907 /* NSString+FDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDExtension.h"; sourceTree = "<group>"; };
+		1B8755831D44569200FF7907 /* NSString+FDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDExtension.m"; sourceTree = "<group>"; };
+		1BD220951D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FDAutoCellHeight.h"; sourceTree = "<group>"; };
+		1BD220961D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FDAutoCellHeight.m"; sourceTree = "<group>"; };
+		4D9B2C1CEE353D1A751F5EE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E03A301C66867D56EBA9A76 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DD7F47D274734AADAACACF75 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148C8A6D38669182E7D80317 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,8 @@
 				1B4572201D43C5DC0059D265 /* UITableViewDemo */,
 				1B45723A1D43C5DC0059D265 /* UITableViewDemoTests */,
 				1B45721F1D43C5DC0059D265 /* Products */,
+				C8FA16434A7A23523BF126BA /* Pods */,
+				FA041139FE1B49098BC18D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +101,23 @@
 		1B4572201D43C5DC0059D265 /* UITableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1B8755821D44569200FF7907 /* NSString+FDExtension.h */,
+				1B8755831D44569200FF7907 /* NSString+FDExtension.m */,
+				1BD220951D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.h */,
+				1BD220961D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.m */,
 				1B4572251D43C5DC0059D265 /* AppDelegate.h */,
 				1B4572261D43C5DC0059D265 /* AppDelegate.m */,
 				1B4572281D43C5DC0059D265 /* ViewController.h */,
 				1B4572291D43C5DC0059D265 /* ViewController.m */,
+				1B4572481D43C88D0059D265 /* FDDataModel.h */,
+				1B4572491D43C88D0059D265 /* FDDataModel.m */,
+				1B45724B1D43C8A30059D265 /* FDTableViewCell.h */,
+				1B45724C1D43C8A30059D265 /* FDTableViewCell.m */,
 				1B45722B1D43C5DC0059D265 /* Main.storyboard */,
 				1B45722E1D43C5DC0059D265 /* Images.xcassets */,
 				1B4572301D43C5DC0059D265 /* LaunchScreen.xib */,
 				1B4572211D43C5DC0059D265 /* Supporting Files */,
+				1B4572471D43C7180059D265 /* PrefixHeader.pch */,
 			);
 			path = UITableViewDemo;
 			sourceTree = "<group>";
@@ -119,6 +148,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C8FA16434A7A23523BF126BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7F47D274734AADAACACF75 /* Pods.debug.xcconfig */,
+				7E03A301C66867D56EBA9A76 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA041139FE1B49098BC18D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B2C1CEE353D1A751F5EE3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B4572411D43C5DC0059D265 /* Build configuration list for PBXNativeTarget "UITableViewDemo" */;
 			buildPhases = (
+				A2E02FF4BCA984C4B205A311 /* Check Pods Manifest.lock */,
 				1B45721A1D43C5DC0059D265 /* Sources */,
 				1B45721B1D43C5DC0059D265 /* Frameworks */,
 				1B45721C1D43C5DC0059D265 /* Resources */,
+				C15805E21AD50467D966223B /* Embed Pods Frameworks */,
+				CF90B62C57738B9440BD8FA1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +212,7 @@
 		1B4572161D43C5DC0059D265 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = asus;
 				TargetAttributes = {
@@ -214,12 +264,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2E02FF4BCA984C4B205A311 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C15805E21AD50467D966223B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF90B62C57738B9440BD8FA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B45721A1D43C5DC0059D265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD220971D44F88C00DBFA9D /* UITableViewCell+FDAutoCellHeight.m in Sources */,
+				1B45724D1D43C8A30059D265 /* FDTableViewCell.m in Sources */,
 				1B45722A1D43C5DC0059D265 /* ViewController.m in Sources */,
+				1B45724A1D43C88D0059D265 /* FDDataModel.m in Sources */,
+				1B8755841D44569200FF7907 /* NSString+FDExtension.m in Sources */,
 				1B4572271D43C5DC0059D265 /* AppDelegate.m in Sources */,
 				1B4572241D43C5DC0059D265 /* main.m in Sources */,
 			);
@@ -345,21 +447,39 @@
 		};
 		1B4572421D43C5DC0059D265 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7F47D274734AADAACACF75 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
 				INFOPLIST_FILE = UITableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		1B4572431D43C5DC0059D265 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E03A301C66867D56EBA9A76 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
 				INFOPLIST_FILE = UITableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -416,6 +536,7 @@
 				1B4572431D43C5DC0059D265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B4572441D43C5DC0059D265 /* Build configuration list for PBXNativeTarget "UITableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +545,7 @@
 				1B4572461D43C5DC0059D265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

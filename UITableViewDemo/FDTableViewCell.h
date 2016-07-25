@@ -8,6 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
+@class FDDataModel;
+
+typedef void (^FDTableViewCellBlock)(NSIndexPath *indexPath);
+
 @interface FDTableViewCell : UITableViewCell
+
+
+@property (nonatomic, strong) NSIndexPath *indexPath;
+@property (nonatomic, copy) FDTableViewCellBlock block;
+
+
+/**
+ *  配置cell
+ */
+- (void)configCellWithModel:(FDDataModel *)model;
+
+/**
+ *  获取高度
+ */
+- (CGFloat)heightWithModel:(FDDataModel *)model;
 
 @end

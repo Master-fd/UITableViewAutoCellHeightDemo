@@ -10,4 +10,10 @@
 
 @interface FDDataModel : NSObject
 
+@property (nonatomic, strong) UIImage *icon;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *desc;
+
+@property (nonatomic, assign) BOOL isExpanded;
+@property (nonatomic, assign) NSInteger statusId;
 @end
